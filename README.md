@@ -5,13 +5,11 @@ Functions to open/create a file if file name is given, return the standard input
 
 ## Install/Usage
 
-Put code to some directory.
-
 Add the following lines to `Cargo.toml`:
 
 ```
 [dependencies]
-fileopener = { path = "path/to/fileopener" }
+fileopener = { git = "https://github.com/tos-kamiya/fileopener.git" }
 ```
 
 Use functions like:
